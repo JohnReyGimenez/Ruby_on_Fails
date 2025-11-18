@@ -3,16 +3,15 @@
 require_relative "lib/ruby_on_fails/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "ruby_on_fails"
+  spec.name = 'ruby_on_fails'
   spec.version = RubyOnFails::VERSION
-  spec.authors = ["JohnReyGimenez"]
-  spec.email = ["gimenezjr5@gmail.com"]
+  spec.authors = ['JohnReyGimenez']
+  spec.email = ['gimenezjr5@gmail.com']
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
-  spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.summary = 'The framework that fails so i can learn! A minimal Rails-like structure project, based on Noah Gibbs\' \'Rebuilding Rails\' guide.'
+  spec.homepage = 'https://github.com/JohnReyGimenez/Ruby_on_Fails'
+  spec.license = 'MIT'
+  spec.required_ruby_version = '>= 3.0.0'
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
