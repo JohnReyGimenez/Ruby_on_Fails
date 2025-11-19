@@ -5,7 +5,7 @@
 
 # RubyOnFails
 
-**The framework that fails so I and possibly you can learn.**
+**The framework that fails so I and possibly YOU can learn.**
 
 RubyOnFails is a minimal implementation of a Ruby web framework. It is being built from scratch to deconstruct and understand the "magic" behind Ruby on Rails.
 Think of yourself as Gandalf. In Middle-earth, you are not merely a conjurer, but a **Maia** sent by the **Valar**. To wield your power effectively, you need a conduit.
