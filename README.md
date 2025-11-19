@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/de04f6d7-fdc9-4a3e-9672-6cb4e3677c3f" alt="Ruby on Fails" width="250" />
+</div>
+
+
 # RubyOnFails
 
 **The framework that fails so I and possibly you can learn.**
