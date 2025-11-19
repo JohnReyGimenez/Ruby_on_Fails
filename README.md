@@ -3,11 +3,11 @@
 </div>
 
 
-# RubyOnFails
+# Ruby on Fails
 
 **The framework that fails so I and possibly YOU can learn.**
 
-RubyOnFails is a minimal implementation of a Ruby web framework. It is being built from scratch to deconstruct and understand the "magic" behind Ruby on Rails.
+Ruby on Fails is a minimal implementation of a Ruby web framework. It is being built from scratch to deconstruct and understand the "magic" behind Ruby on Rails.
 Think of yourself as Gandalf. In Middle-earth, you are not merely a conjurer, but a **Maia** sent by the **Valar**. To wield your power effectively, you need a conduit.
 - **Ruby is your Staff:** The fundamental tool that channels your will.
 - **Rails is your Magic:** The powerful spells that shape the world.
