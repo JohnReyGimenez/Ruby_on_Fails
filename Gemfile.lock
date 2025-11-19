@@ -1,12 +1,14 @@
 PATH
   remote: .
   specs:
-    ruby_on_fails (0.1.0)
+    ruby_on_fails (0.0.1)
+      rack (~> 2.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.6.1)
+    rack (2.2.21)
     rake (13.3.0)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
