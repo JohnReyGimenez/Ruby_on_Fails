@@ -1,43 +1,20 @@
-# RubyOnFails
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/de04f6d7-fdc9-4a3e-9672-6cb4e3677c3f" alt="Ruby on Fails" width="250" />
+</div>
 
-TODO: Delete this and the text below, and describe your gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby_on_fails`. To experiment with that code, run `bin/console` for an interactive prompt.
+# Ruby on Fails
 
-## Installation
+**The framework that fails so I and possibly YOU can learn.**
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruby_on_fails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/ruby_on_fails/blob/main/CODE_OF_CONDUCT.md).
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the RubyOnFails project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/ruby_on_fails/blob/main/CODE_OF_CONDUCT.md).
+Ruby on Fails is a minimal implementation of a Ruby web framework. It is being built from scratch to deconstruct and understand the "magic" behind Ruby on Rails.
+Think of yourself as Gandalf. In Middle-earth, you are not merely a conjurer, but a **Maia** sent by the **Valar**. To wield your power effectively, you need a conduit.
+- **Ruby is your Staff:** The fundamental tool that channels your will.
+- **Rails is your Magic:** The powerful spells that shape the world.
+A wizard does not simply wave their hands! they must understand the tool they wield. This project is about understanding the staff so **I** (or you) can master the magic.
+  
+This project follows the path laid out in Noah Gibbs' book, *Rebuilding Rails*, reconstructing a Model-View-Controller (MVC) architecture to learn about:
+- Rack and HTTP requests
+- Metaprogramming and Ruby internals
+- Routing and Controllers
+- ORMs and Database interactions
