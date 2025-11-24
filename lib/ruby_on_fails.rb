@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "ruby_on_fails/array"
+require 'ruby_on_fails/array'
 require_relative 'ruby_on_fails/version'
 
 module RubyOnFails
