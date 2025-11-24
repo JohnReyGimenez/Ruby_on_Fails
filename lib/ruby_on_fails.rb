@@ -1,17 +1,27 @@
 # frozen_string_literal: true
 
 require 'ruby_on_fails/array'
-require_relative 'ruby_on_fails/version'
+require 'ruby_on_fails/version'
+require 'ruby_on_fails/routing'
 
 module RubyOnFails
   # The main application class used to handle Rack requests
   class Application
-    def call(_env)
-      [200, { 'Content-Type' => 'text/html' },
-       ['Hello from Ruby on Rulers!']]
+    def call(env)
+      klass, act = get_controller_and_action(env)
+      controller = klass.new(env)
+      text = controller.send(act)
+      [200, {'Content-Type' => 'text/html'}, [text]]
     end
   end
 
-  class Error < StandardError; end
-  # Your code goes here...
+  class Controller
+    def initialize(env)
+      @env = env
+    end
+
+    def env
+      @env
+    end
+  end
 end
